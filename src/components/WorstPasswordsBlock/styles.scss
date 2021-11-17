@@ -40,11 +40,11 @@
 
     &--number-cell {
       width: 40px;
-      font-family: 'Gordita Medium';
+      font-family: 'Gordita Regular';
     }
 
     &--count-cell {
-      font-family: 'Gordita Medium';
+      font-family: 'Gordita Regular';
     }
 
     &:last-of-type {
@@ -62,6 +62,7 @@
       display: flex;
       justify-content: flex-end;
       text-align: left;
+      font-family: 'Gordita Regular';
     }
 
     &__control {
