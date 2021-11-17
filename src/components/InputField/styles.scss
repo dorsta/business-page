@@ -1,0 +1,48 @@
+.input-field {
+  width: 100%;
+  margin-bottom: 24px;
+
+  &__wrapper {
+    background: white;
+    border: 1px solid #b9babd;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 13px 16px 11px;
+
+    &--active {
+      border: 1px solid #616265;
+    }
+
+    &--error {
+      border: 1px solid #f64f64;
+    }
+  }
+
+  &__input {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #383c43;
+    outline: none;
+    border: none;
+    width: 100%;
+
+    &--text-area {
+      resize: none;
+      height: 105px;
+    }
+  }
+
+  &__error {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #f64f64;
+    margin-top: 12px;
+  }
+
+  &__warning {
+    margin-right: 8px;
+    color: #f64f64;
+  }
+}

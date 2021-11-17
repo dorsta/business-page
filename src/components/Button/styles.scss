@@ -1,0 +1,29 @@
+.button {
+  height: 32px;
+  width: 100px;
+  border-radius: 2px;
+  background-color: #43a5a1;
+  font-family: 'Gordita bold';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #398e8b;
+  }
+
+  &:active {
+    background-color: #43a5a1;
+  }
+
+  &.button--cta {
+    height: 54px;
+    width: 167px;
+    border-radius: 3px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

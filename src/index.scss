@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gordita Medium';
+}
+
+.content-wrapper {
+  width: 88%;
+  max-width: 1134px;
+  margin: auto;
+}
+
+.page-block {
+  min-height: 100vh;
+  padding-top: 59.33px;
+}
+
+@font-face {
+  font-family: 'Gordita Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Gordita\ Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Gordita Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Gordita\ Bold.woff') format('woff');
+}

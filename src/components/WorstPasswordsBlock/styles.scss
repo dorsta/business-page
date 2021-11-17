@@ -1,0 +1,88 @@
+.passwords-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 20px;
+
+  &__header {
+    font-family: 'Gordita Bold';
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: -0.15px;
+    color: #373b42;
+    margin-bottom: 60px;
+  }
+
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 36px;
+  }
+
+  &__table-row {
+    border-bottom: solid 1px #e8e8e9;
+    height: 73px;
+  }
+
+  &__cell {
+    font-family: 'Gordita Bold';
+    font-size: 16px;
+    color: #373b42;
+
+    &--header-cell {
+      font-size: 20px;
+
+      &:first-of-type {
+        text-align: left;
+      }
+    }
+
+    &--number-cell {
+      width: 40px;
+      font-family: 'Gordita Medium';
+    }
+
+    &--count-cell {
+      font-family: 'Gordita Medium';
+    }
+
+    &:last-of-type {
+      text-align: right;
+    }
+
+    &--error-cell {
+      color: #f64f64;
+      text-align: center;
+    }
+  }
+
+  & .react-select {
+    &__container {
+      display: flex;
+      justify-content: flex-end;
+      text-align: left;
+    }
+
+    &__control {
+      width: 261px;
+      border: 1px solid #b9babd;
+      border-radius: 3px;
+      max-width: 45vw;
+    }
+
+    &__menu {
+      width: 261px;
+    }
+
+    &__arrow {
+      &--arrow-up {
+        transform: rotate(180deg);
+      }
+    }
+
+    &__indicator-separator {
+      display: none;
+    }
+  }
+}

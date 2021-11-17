@@ -1,0 +1,55 @@
+.f-a-q {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+
+  &__title {
+    font-family: 'Gordita Bold';
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: -0.15px;
+    color: #373b42;
+    margin-bottom: 60px;
+  }
+
+  &__card {
+    width: 100%;
+    max-width: 746px;
+    background: #ffffff;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+    padding: 16px 20px 26px 16px;
+    margin-bottom: 12px;
+  }
+
+  &__card-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__question {
+    font-family: 'Gordita Bold';
+    font-size: 16px;
+    line-height: 24px;
+    color: #373b42;
+  }
+
+  &__card-arrow {
+    &--open {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__answer {
+    font-size: 16px;
+    line-height: 24px;
+    color: #373b42;
+    white-space: pre-line;
+    margin-top: 16px;
+  }
+}
